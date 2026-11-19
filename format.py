@@ -239,7 +239,7 @@ print(img.mode, mode)
 for i in range(height):
 	for j in range(width):
 		try:
-			if pixels[j, i] != pixels2[j, i]:
+			if pixels1[j, i] != pixels2[i][j]:
 				print((j, i))
 		except:
 			pass
